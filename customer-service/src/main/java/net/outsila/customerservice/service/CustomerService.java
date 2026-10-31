@@ -1,4 +1,4 @@
-package net.outsila.customerservice;
+package net.outsila.customerservice.service;
 
 import net.outsila.customerservice.entities.Customer;
 import net.outsila.customerservice.repository.CustomerRepository;

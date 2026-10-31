@@ -1,8 +1,7 @@
 package net.outsila.customerservice.controllers;
 
-import net.outsila.customerservice.CustomerService;
+import net.outsila.customerservice.service.CustomerService;
 import net.outsila.customerservice.entities.Customer;
-import net.outsila.customerservice.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
