@@ -25,6 +25,12 @@ public class EbankRestController {
         return Ebankservice.getBankAccountByID(id);
     }
 
+
+    @GetMapping("/accounts/client/{id}")
+    public List<BankAccount> findByCustomerId(@PathVariable Long id){
+        return Ebankservice.findByCustomerId(id);
+    }
+
     @PostMapping("/accounts")
     public BankAccount save(BankAccount bankAccount){
         return Ebankservice.save(bankAccount);

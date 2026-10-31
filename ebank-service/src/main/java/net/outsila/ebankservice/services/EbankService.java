@@ -28,4 +28,8 @@ public class EbankService {
         return accountRepository.save(bankAccount);
     }
 
+    public List<BankAccount> findByCustomerId(Long id) {
+        return accountRepository.findByCustomerId(id);
+    }
+
 }
